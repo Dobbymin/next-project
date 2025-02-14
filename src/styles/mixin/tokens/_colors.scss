@@ -1,0 +1,29 @@
+@import '../variabless';
+
+// 색상 맵 정의
+$colors: (
+  'white-1': $colors-white-1,
+  'white-2': $colors-white-2,
+  'white-3': $colors-white-3,
+  'white-4': $colors-white-4,
+  'white-5': $colors-white-5,
+
+  'black-1': $colors-black-1,
+  'black-2': $colors-black-2,
+  'black-3': $colors-black-3,
+
+  'gray-1': $colors-gray-1,
+  'gray-2': $colors-gray-2,
+  'gray-3': $colors-gray-3,
+  'gray-4': $colors-gray-4,
+  'gray-5': $colors-gray-5,
+
+  'blue-1': $colors-blue-1,
+  'blue-2': $colors-blue-2,
+
+  'green-1': $colors-green-1,
+  'green-2': $colors-green-2,
+
+  'pink-1': $colors-pink-1,
+  'pink-2': $colors-pink-2,
+);

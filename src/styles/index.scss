@@ -1,0 +1,14 @@
+@use 'sass:list';
+@use 'sass:string';
+@use 'sass:map';
+@import './mixin/functions/index.scss';
+@import './mixin/tokens';
+@import './mixin/variabless';
+
+@function custom-map-get($map, $key) {
+  @return map.get($map, $key);
+}
+
+@function custom-map-has-key($map, $key) {
+  @return map.has-key($map, $key);
+}
